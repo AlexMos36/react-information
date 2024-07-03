@@ -1,7 +1,7 @@
 # React-Informaton
 
 NewYorkTimes Clone made for [Start2Impact Univeristy](https://www.start2impact.it/)
-![Screenshot 2024-06-19 094749](https://github.com/AlexMos36/React-Informaton/assets/105787564/603aad6c-af60-45be-9b87-2d4a4ce0d358)
+!(https://github.com/AlexMos36/React-Informaton/assets/105787564/603aad6c-af60-45be-9b87-2d4a4ce0d358)
 
 # Table of Contents
 
@@ -36,7 +36,7 @@ I have created a news website inspired by the New York Times using its APIs, wit
 
 ## Link
 
-- [react-information](https://react-information-s2i.netlify.app)
+- [react-information](https://information-s2i.netlify.app)
 
 # Installation
 
