@@ -20,7 +20,12 @@ const storeInCache = (url, data) => {
 };
 
 // Helper function to implement exponential backoff
-const fetchWithExponentialBackoff = async (url, retries = 5, delay = 3000) => {
+const fetchWithExponentialBackoff = async (
+  url,
+  retries = 5,
+  initialDelay = 3000
+) => {
+  let delay = initialDelay;
   for (let i = 0; i < retries; i++) {
     try {
       const response = await axios.get(url);
@@ -33,7 +38,10 @@ const fetchWithExponentialBackoff = async (url, retries = 5, delay = 3000) => {
       ) {
         throw error;
       }
-      await new Promise((resolve) => setTimeout(resolve, delay));
+      // Use a self-invoking function to create a new scope for each iteration
+      await (function (delay) {
+        return new Promise((resolve) => setTimeout(resolve, delay));
+      })(delay);
       delay *= 2; // Increase the delay for the next retry
     }
   }
