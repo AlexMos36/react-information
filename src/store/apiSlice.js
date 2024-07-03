@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_KEY = process.env.REACT_APP_API_KEY;
+const REACT_APP_API_KEY = process.env.REACT_APP_API_KEY;
 const cache = {};
 
 // Function to fetch data from the cache
@@ -49,8 +49,8 @@ const fetchWithExponentialBackoff = async (
 
 export const fetchNews = createAsyncThunk("api/fetchNews", async (query) => {
   const url = query
-    ? `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${query}&api-key=${API_KEY}`
-    : `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=${API_KEY}`;
+    ? `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${query}&api-key=${REACT_APP_API_KEY}`
+    : `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=${REACT_APP_API_KEY}`;
 
   // Check if the response is in the cache
   const cachedData = fetchFromCache(url);
