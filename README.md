@@ -1,4 +1,44 @@
-# Getting Started with Create React App
+# React-Informaton
+
+NewYorkTimes Clone made for [Start2Impact Univeristy](https://www.start2impact.it/)
+![Screenshot 2024-06-19 094749](https://github.com/AlexMos36/React-Informaton/assets/105787564/603aad6c-af60-45be-9b87-2d4a4ce0d358)
+
+# Table of Contents
+
+> #### Overview
+>
+> > ##### Assignment
+>
+> > ##### Technology Used
+>
+> > ##### Link
+>
+> #### Installation
+>
+> #### Contacts
+
+# Overview
+
+## Assignments
+
+I have created a news website inspired by the New York Times using its APIs, with an easy-to-use interface, an organized and understandable app structure, and a responsive design.
+
+## Technology Used
+
+- [New York Times APIs](https://developer.nytimes.com/get-started)
+- React
+- React Hooks
+- React Router
+- Redux/Redux Toolkit
+- Axios
+- Tailwindcss
+- Flexbox
+
+## Link
+
+- [react-information](https://react-information-s2i.netlify.app)
+
+# Installation
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -26,45 +66,3 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
