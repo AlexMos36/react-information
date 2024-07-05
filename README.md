@@ -1,7 +1,8 @@
 # React-Informaton
 
 NewYorkTimes Clone made for [Start2Impact Univeristy](https://www.start2impact.it/)
-!(https://github.com/AlexMos36/React-Informaton/assets/105787564/603aad6c-af60-45be-9b87-2d4a4ce0d358)
+!(![Screenshot 2024-06-19 094749](https://github.com/AlexMos36/react-information/assets/105787564/b0e20d03-3319-485b-b216-e897b7011b81)
+)
 
 # Table of Contents
 
